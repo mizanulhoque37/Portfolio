@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mizanul Hoque Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #f5f7fa;
+      color: #d3a912;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+      background-image : url('https://th.bing.com/th/id/R.80048c94faacac8b7ff6af18efa3d92a?rik=Ac82coHKVHLVyg&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2016%2f01%2fnature-wallpapers-8.jpg&ehk=GoUR7nA3jNm0gIdWFJoMVL1iu%2bJuWOU7Nu7KkgKZzeQ%3d&risl=&pid=ImgRaw&r=0')
+      
+    }
+    header {
+      background: linear-gradient(to right, #384f6a, #e0e305);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 3.2rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: #ffffff;
+      padding: 15px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+    nav a {
+      text-decoration: none;
+      color: #007cf0;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00dfd8;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #d4ff00;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      color: #ffffff;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #974324;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .section li {
+      margin-bottom: 15px;
+      background: #ffffff;
+      padding: 16px 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      color: #007cf0;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+      color: #00dfd8;
+    }
+    footer {
+      background-color: #0e1117;
+      color: #c9d1d9;
+      padding: 25px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+   
+  <header>
+    <h1>Welcome To My  Web Page</h1>
+    <p>Conten Creator | AI Enthusiast | Cloud & Security Specialist</p>
+  </header>
+  <nav>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero">
+    <h2>Hello, I am Mizanul Hoque</h2>
+    <p>I'm passionate about building web apps, exploring AI, and creating content. Currently pursuing B.Tech in Computer Science and Engineering (CTIS) at Assam Downtown University.</p>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <ul>
+      <li>Class 1oth - Nagabandha Secondary School</li>
+      <li>Class 12th (PCBM) - Concept Junior College , Nagaon</li>
+      <li>B.Tech in Computer Science and Engineering (CTIS) - Assam Downtown University (2023 - 2027)</li>
+    </ul>
+  </section>
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Java, JavaScript, Python, C (Foundational)</li>
+      <li><strong>Frontend:</strong> HTML, CSS </li>
+    </ul>
+  </section>
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>A sleek responsive portfolio showcasing my profile, skills, and contact info built using HTML, CSS, and JS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Travel Service Page</h3>
+        <p>A professional landing page for Innova taxi services connecting Morigaon to AIIMS Guwahati.</p>
+      </div>
+      <div class="project-card">
+        <h3>YouTube Shorts Series</h3>
+        <p>A content series exploring with Time managment on YouTube .</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:mizanulhoque65@gmail.com">mizanulhoque65@gmail.com</a></p>
+    <p>Youtube: <a href="https://youtube.com/@journey_with_mizu?si=gJtc-ZQ38et5NaUN">Check My Letest Vlog </a></p>
+    <p>Instragram: <a href="https://www.instagram.com/mizu_ansari__?igsh=MnRkYmR0dXp1aW53" target="_blank">Instagram</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/mizanul-hoque-2a26022ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Connect With Me</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Mizanul Hoque. All rights reserved.</p>
+  </footer>
+</body>
+</html>
